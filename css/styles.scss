@@ -3,8 +3,8 @@
  padding: 0;
 }
 
-$primary-color: green;
-$secondary-color: rgb(9, 115, 185);
+$primary-color: #057A6F;
+$secondary-color: #1D8BC2;
 
 @mixin fancy-text {
   font-family: fantasy;
@@ -18,7 +18,7 @@ $secondary-color: rgb(9, 115, 185);
 
 @mixin shadow {
  border-radius: 60px;
- box-shadow: 3px 3px 3px grey;
+ box-shadow: 3px 3px 3px #ADB2B3;
 }
 
 h1 {
@@ -41,8 +41,9 @@ img {
  display: block;
  margin: 5px auto;
  @include shadow();
- width: 400px;
- height: 300px;
+ width: 60%;
+ height: 25%;
+ background-color: #83E1E6;
 }
  
 p {
@@ -70,14 +71,19 @@ p {
 }
 
 header {
- background-color: teal;
- height: 50px;
+ background-color: #167E80;
+ height: 55px;
  color: $secondary-color;
  @include shadow(); 
+ display: flex;
+ align-items: center;
+ 
  }
  
 button {
  color: $secondary-color;
+ margin: 20px;
+
 }
 
 body {
@@ -86,4 +92,14 @@ body {
 
 a:hover {
  @include shadow();
+ 
+}
+
+a {
+ margin: 20px;
+}
+
+footer {
+ @include borders();
+ color: $primary-color;
 }
