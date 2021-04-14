@@ -1,0 +1,64 @@
+h1 {
+  font-family: fantasy;
+  font-style: italic;
+  color: green;
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h3 {
+  font-family: fantasy;
+  font-style: italic;
+  color: #0973b9;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+p {
+  color: #0973b9;
+}
+
+.box {
+  background-image: url(../images/hunt-han-4QdIiHPLnfI-unsplash.jpg);
+  padding: 100px;
+  margin: 100px;
+  background-position: cover;
+}
+
+.container {
+  padding: 15px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header {
+  background-color: teal;
+  height: 50px;
+  color: #0973b9;
+}
+
+button {
+  color: #0973b9;
+}
+
+body {
+  background-image: url("images/leaves.png");
+}
+/*# sourceMappingURL=styles.css.map */
