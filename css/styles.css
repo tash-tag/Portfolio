@@ -44,7 +44,7 @@ p {
 }
 
 .box {
-  background-image: url(../images/hunt-han-4QdIiHPLnfI-unsplash.jpg);
+  background-color: #A16FB0;
   padding: 100px;
   margin: 100px;
   background-position: cover;
@@ -89,10 +89,6 @@ header {
 button {
   color: #1D8BC2;
   margin: 20px;
-}
-
-body {
-  background-image: url("images/leaves.png");
 }
 
 a:hover {
