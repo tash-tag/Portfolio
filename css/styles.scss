@@ -1,4 +1,7 @@
-
+* {
+ margin: 0;
+ padding: 0;
+}
 
 $primary-color: green;
 $secondary-color: rgb(9, 115, 185);
@@ -8,21 +11,43 @@ $secondary-color: rgb(9, 115, 185);
   font-style: italic; 
 }
 
+@mixin borders {
+ margin: 10px;
+ padding: 10px
+}
+
+@mixin shadow {
+ border-radius: 60px;
+ box-shadow: 3px 3px 3px grey;
+}
+
 h1 {
  @include fancy-text();
  color: $primary-color;
  font-size: 50px;
  display: flex;
  justify-content: center;
+ @include borders();
 }
+
 h3 {
  @include fancy-text();
  color: $secondary-color;
- @include fancy-text();
+ @include borders();
+ 
+}
+
+img {
+ display: block;
+ margin: 5px auto;
+ @include shadow();
+ width: 400px;
+ height: 300px;
 }
  
 p {
  color: $secondary-color;
+ @include borders()
 }
 
 .box {
@@ -30,7 +55,9 @@ p {
  padding: 100px;
  margin: 100px;
  background-position: cover;
+ @include shadow();
 }
+
 .container {
  padding: 15px;
  width: 90%;
@@ -40,19 +67,23 @@ p {
  flex-direction: row;
  justify-content: space-around;
  align-content: center;
- 
 }
 
 header {
  background-color: teal;
  height: 50px;
  color: $secondary-color;
-}
-
+ @include shadow(); 
+ }
+ 
 button {
  color: $secondary-color;
 }
 
 body {
  background-image: url("images/leaves.png");
+}
+
+a:hover {
+ @include shadow();
 }

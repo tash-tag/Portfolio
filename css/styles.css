@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: fantasy;
   font-style: italic;
@@ -9,18 +14,32 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 h3 {
   font-family: fantasy;
   font-style: italic;
   color: #0973b9;
-  font-family: fantasy;
-  font-style: italic;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: 5px auto;
+  border-radius: 60px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
+  width: 400px;
+  height: 300px;
 }
 
 p {
   color: #0973b9;
+  margin: 10px;
+  padding: 10px;
 }
 
 .box {
@@ -28,6 +47,9 @@ p {
   padding: 100px;
   margin: 100px;
   background-position: cover;
+  border-radius: 60px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
 }
 
 .container {
@@ -52,6 +74,9 @@ header {
   background-color: teal;
   height: 50px;
   color: #0973b9;
+  border-radius: 60px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
 }
 
 button {
@@ -60,5 +85,11 @@ button {
 
 body {
   background-image: url("images/leaves.png");
+}
+
+a:hover {
+  border-radius: 60px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
 }
 /*# sourceMappingURL=styles.css.map */
