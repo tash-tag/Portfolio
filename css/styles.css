@@ -45,8 +45,8 @@ p {
 
 .box {
   background-color: #6CB8B6;
-  padding: 100px;
-  margin: 100px;
+  padding: 10%;
+  margin: 10%;
   background-position: cover;
   border-radius: 60px;
   -webkit-box-shadow: 3px 3px 3px #8BCCC5;
@@ -107,8 +107,27 @@ footer {
   color: #057A6F;
 }
 
-.icon {
+.icon1 {
   height: 10%;
   width: 10%;
+  color: lightseagreen;
+}
+
+.icon2 {
+  height: 10%;
+  width: 10%;
+  color: lightseagreen;
+}
+
+.icon3 {
+  height: 10%;
+  width: 10%;
+  color: lightseagreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */

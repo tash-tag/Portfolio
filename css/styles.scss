@@ -53,8 +53,8 @@ p {
 
 .box {
  background-color: #6CB8B6;
- padding: 100px;
- margin: 100px;
+ padding: 10%;
+ margin: 10%;
  background-position: cover;
  @include shadow();
 }
@@ -101,7 +101,20 @@ footer {
  color: $primary-color;
 }
 
-.icon {
+.icon1 {
  height: 10%;
  width: 10%;
+ color: lightseagreen;
+}
+.icon2 {
+ height: 10%;
+ width: 10%;
+ color: lightseagreen;
+}
+.icon3 {
+ height: 10%;
+ width: 10%;
+ color: lightseagreen;
+ display: flex;
+ align-items: center;
 }
