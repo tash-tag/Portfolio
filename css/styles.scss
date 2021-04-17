@@ -18,7 +18,7 @@ $secondary-color: #1D8BC2;
 
 @mixin shadow {
  border-radius: 60px;
- box-shadow: 3px 3px 3px #ADB2B3;
+ box-shadow: 3px 3px 3px #8BCCC5;
 }
 
 h1 {
@@ -52,13 +52,13 @@ p {
 }
 
 .box {
- background-color: #A16FB0;
+ background-color: #6CB8B6;
  padding: 100px;
  margin: 100px;
  background-position: cover;
  @include shadow();
 }
-
+// #A16FB0
 .container {
  padding: 15px;
  width: 90%;

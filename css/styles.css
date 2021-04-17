@@ -30,8 +30,8 @@ img {
   display: block;
   margin: 5px auto;
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #ADB2B3;
-          box-shadow: 3px 3px 3px #ADB2B3;
+  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
+          box-shadow: 3px 3px 3px #8BCCC5;
   width: 60%;
   height: 25%;
   background-color: #83E1E6;
@@ -44,13 +44,13 @@ p {
 }
 
 .box {
-  background-color: #A16FB0;
+  background-color: #6CB8B6;
   padding: 100px;
   margin: 100px;
   background-position: cover;
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #ADB2B3;
-          box-shadow: 3px 3px 3px #ADB2B3;
+  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
+          box-shadow: 3px 3px 3px #8BCCC5;
 }
 
 .container {
@@ -76,8 +76,8 @@ header {
   height: 55px;
   color: #1D8BC2;
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #ADB2B3;
-          box-shadow: 3px 3px 3px #ADB2B3;
+  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
+          box-shadow: 3px 3px 3px #8BCCC5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,8 +93,8 @@ button {
 
 a:hover {
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #ADB2B3;
-          box-shadow: 3px 3px 3px #ADB2B3;
+  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
+          box-shadow: 3px 3px 3px #8BCCC5;
 }
 
 a {
