@@ -30,13 +30,11 @@ h1 {
  @include borders();
 }
 
-h3 {
+h2 {
  @include fancy-text();
  color: $secondary-color;
  @include borders();
  display: flex;
- 
- 
 }
 
 img {
@@ -58,10 +56,9 @@ p {
  padding: 10%;
  margin: 10%;
  background-position: cover;
- @include shadow();
- 
+ @include shadow(); 
 }
-// #A16FB0
+
 .container {
  padding: 15px;
  width: 90%;
@@ -80,19 +77,15 @@ header {
  @include shadow(); 
  display: flex;
  align-items: center;
- 
  }
  
 button {
  color: $secondary-color;
  margin: 20px;
-
 }
-
 
 a:hover {
  @include shadow();
- 
 }
 
 a {
@@ -105,25 +98,26 @@ footer {
 }
 
 .icon1 {
- height: 10%;
- width: 10%;
- color: lightseagreen;
- 
+ height: 20%;
+ width: 20%;
+ display: flex;
+ justify-content: row; 
 
 }
+
 .icon2 {
  height: 10%;
  width: 10%;
- color: lightseagreen;
  display: flex;
- align-content: center;
+ justify-content: row;
 }
+
 .icon3 {
  height: 10%;
  width: 10%;
- color: lightseagreen;
  display: flex;
- align-items: center;
+ 
+
 }
 .blog4 {
  display: flex;
@@ -132,6 +126,7 @@ footer {
  background-color: #A1D498;
  height: 25%;
 }
+
 .blog2 {
  display: flex;
  flex-direction: column;
@@ -145,11 +140,13 @@ section {
  width: 100%;
 }
 
-
 .contact {
  display: flex;
- flex-direction: column
+ flex-direction: column;
  justify-content: center;
  align-items: center;
- 
+}
+
+article {
+ width: 100%;
 }
