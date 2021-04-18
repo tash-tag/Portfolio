@@ -7,7 +7,7 @@ h1 {
   font-family: fantasy;
   font-style: italic;
   color: #057A6F;
-  font-size: 50px;
+  font-size: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,6 +27,10 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 70px;
 }
 
 img {
@@ -42,6 +46,7 @@ img {
 
 p {
   color: #1D8BC2;
+  font-size: 50px;
   margin: 10px;
   padding: 10px;
 }
@@ -50,6 +55,7 @@ p {
   background-color: #6CB8B6;
   padding: 10%;
   margin: 10%;
+  font-size: 50px;
   background-position: cover;
   border-radius: 60px;
   -webkit-box-shadow: 3px 3px 3px #8BCCC5;
@@ -58,9 +64,10 @@ p {
 
 .container {
   padding: 15px;
+  height: 80px;
   width: 90%;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +98,7 @@ header {
 
 button {
   color: #1D8BC2;
+  font-size: 30px;
   margin: 20px;
 }
 
@@ -102,6 +110,11 @@ a:hover {
 
 a {
   margin: 20px;
+  font-size: 40px;
+}
+
+.lnk {
+  height: 200px;
 }
 
 footer {
@@ -110,34 +123,14 @@ footer {
   color: #057A6F;
 }
 
-.icon1 {
-  height: 20%;
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: row;
-      -ms-flex-pack: row;
-          justify-content: row;
+.icon {
+  height: 30%;
+  width: 30%;
 }
 
 .icon2 {
-  height: 10%;
-  width: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: row;
-      -ms-flex-pack: row;
-          justify-content: row;
-}
-
-.icon3 {
-  height: 10%;
-  width: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 20%;
+  width: 20%;
 }
 
 .blog4 {
@@ -190,6 +183,12 @@ section {
 }
 
 article {
-  width: 100%;
+  width: 90;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */

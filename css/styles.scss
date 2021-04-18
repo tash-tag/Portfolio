@@ -24,7 +24,7 @@ $secondary-color: #1D8BC2;
 h1 {
  @include fancy-text();
  color: $primary-color;
- font-size: 50px;
+ font-size: 100px;
  display: flex;
  justify-content: center;
  @include borders();
@@ -35,6 +35,8 @@ h2 {
  color: $secondary-color;
  @include borders();
  display: flex;
+ justify-content: center;
+ font-size: 70px;
 }
 
 img {
@@ -48,6 +50,7 @@ img {
  
 p {
  color: $secondary-color;
+ font-size: 50px;
  @include borders()
 }
 
@@ -55,18 +58,21 @@ p {
  background-color: #6CB8B6;
  padding: 10%;
  margin: 10%;
+ font-size: 50px;
  background-position: cover;
  @include shadow(); 
 }
 
 .container {
  padding: 15px;
+ height: 80px;
  width: 90%;
  margin: 0 auto;
- font-size: 16px;
+ font-size: 60px;
  display: flex;
  flex-direction: row;
  justify-content: space-around;
+
  align-content: center;
 }
 
@@ -81,6 +87,7 @@ header {
  
 button {
  color: $secondary-color;
+ font-size: 30px;
  margin: 20px;
 }
 
@@ -90,6 +97,12 @@ a:hover {
 
 a {
  margin: 20px;
+ font-size: 40px;
+ // display: flex;
+}
+
+.lnk {
+height: 200px
 }
 
 footer {
@@ -97,28 +110,17 @@ footer {
  color: $primary-color;
 }
 
-.icon1 {
- height: 20%;
- width: 20%;
- display: flex;
- justify-content: row; 
-
+.icon {
+ height: 30%;
+ width: 30%;
 }
+
 
 .icon2 {
- height: 10%;
- width: 10%;
- display: flex;
- justify-content: row;
+ height: 20%;
+ width: 20%;
 }
 
-.icon3 {
- height: 10%;
- width: 10%;
- display: flex;
- 
-
-}
 .blog4 {
  display: flex;
  flex-direction: column;
@@ -148,5 +150,10 @@ section {
 }
 
 article {
- width: 100%;
+ width: 90;display: flex;
+ justify-content: center;
 }
+
+// label {
+//  font-size: 40px;
+// }
