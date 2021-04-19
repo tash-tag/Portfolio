@@ -7,7 +7,7 @@ h1 {
   font-family: fantasy;
   font-style: italic;
   color: #057A6F;
-  font-size: 100px;
+  font-size: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +30,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 img {
@@ -46,7 +46,8 @@ img {
 
 p {
   color: #1D8BC2;
-  font-size: 50px;
+  font-size: 30px;
+  font-family: sans-serif;
   margin: 10px;
   padding: 10px;
 }
@@ -54,7 +55,8 @@ p {
 .box {
   background-color: #6CB8B6;
   padding: 10%;
-  margin: 10%;
+  margin: 5%;
+  font-size: 40px;
   background-position: cover;
   border-radius: 60px;
   -webkit-box-shadow: 3px 3px 3px #8BCCC5;
@@ -66,7 +68,7 @@ p {
   height: 80px;
   width: 90%;
   margin: 0 auto;
-  font-size: 60px;
+  font-size: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,6 +133,11 @@ footer {
   width: 20%;
 }
 
+.about-icon img {
+  width: 160px;
+  height: 160px;
+}
+
 .blog4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,31 +187,22 @@ section {
           align-items: center;
 }
 
+.input-field {
+  width: 150%;
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 article {
-  width: 90;
+  width: 20;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-@media only screen and (min-width: 601) {
-  p {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  p {
-    font-size: 24px;
-  }
-}
-
-@media only screen and (min-width: 769px) {
-  p {
-    font-size: 16px;
-  }
 }
 /*# sourceMappingURL=styles.css.map */
