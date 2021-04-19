@@ -40,7 +40,7 @@ img {
   -webkit-box-shadow: 3px 3px 3px #8BCCC5;
           box-shadow: 3px 3px 3px #8BCCC5;
   width: 60%;
-  height: 25%;
+  height: auto;
   background-color: #83E1E6;
 }
 
@@ -55,7 +55,6 @@ p {
   background-color: #6CB8B6;
   padding: 10%;
   margin: 10%;
-  font-size: 50px;
   background-position: cover;
   border-radius: 60px;
   -webkit-box-shadow: 3px 3px 3px #8BCCC5;
@@ -83,7 +82,6 @@ p {
 
 header {
   background-color: #167E80;
-  height: 55px;
   color: #1D8BC2;
   border-radius: 60px;
   -webkit-box-shadow: 3px 3px 3px #8BCCC5;
@@ -190,5 +188,23 @@ article {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (min-width: 601) {
+  p {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  p {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
