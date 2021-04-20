@@ -4,9 +4,7 @@
 }
 
 
-
-
-$primary-color: #057A6F;
+$primary-color: #9c4713;
 $secondary-color: #1D8BC2;
 
 @mixin fancy-text {
@@ -27,7 +25,7 @@ $secondary-color: #1D8BC2;
 h1 {
  @include fancy-text();
  color: $primary-color;
- font-size: 6em;
+ font-size: 5em;
  display: flex;
  justify-content: center;
  @include borders();
@@ -35,11 +33,11 @@ h1 {
 
 h2 {
  @include fancy-text();
- color: $secondary-color;
+ color: $primary-color;
  @include borders();
  display: flex;
  justify-content: center;
- font-size: 4;
+ font-size: 4em;
 }
 
 img {
@@ -53,13 +51,13 @@ img {
  
 p {
  color: $secondary-color;
- font-size: 30px;
+ font-size: 2.5em;
  font-family: sans-serif;
  @include borders()
 }
 
 .box {
- background-color: #6CB8B6;
+ background-color: #a6edcb;
  padding: 10%;
  margin: 5%;
  font-size: 2.5em;
@@ -72,7 +70,7 @@ p {
  height: 80px;
  width: 90%;
  margin: 0 auto;
- font-size: 25px;
+ font-size: 2em;
  display: flex;
  flex-direction: row;
  justify-content: space-around;
@@ -80,9 +78,9 @@ p {
 }
 
 header {
- background-color: #167E80;
- // height: 75px;
- // line-height: 75px;
+ background-color: #1c7175;
+ height: 75px;
+ line-height: 75px;
  color: $secondary-color;
  @include shadow(); 
  display: flex;
@@ -91,7 +89,7 @@ header {
  
 button {
  color: $secondary-color;
- font-size: 2em;
+ font-size: 1em;
  margin: 20px;
 }
 
@@ -102,6 +100,7 @@ a:hover {
 a {
  margin: 20px;
  font-size: 40px;
+ color: #1a1817;
  // display: flex;
 }
 
@@ -133,7 +132,7 @@ footer {
  display: flex;
  flex-direction: column;
  align-content: center;
- background-color: #A1D498;
+ background-color: #a6edcb;
  height: 25%;
 }
 
@@ -141,13 +140,15 @@ footer {
  display: flex;
  flex-direction: column;
  align-content: center;
- background-color: #A1D498;
+ background-color: #a6edcb;
  height: 25%;
 }
 
 section {
  height: 25%;
  width: 100%;
+ font-family: ;
+
 }
 
 .contact {

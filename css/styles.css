@@ -6,8 +6,8 @@
 h1 {
   font-family: fantasy;
   font-style: italic;
-  color: #057A6F;
-  font-size: 6em;
+  color: #9c4713;
+  font-size: 5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-family: fantasy;
   font-style: italic;
-  color: #1D8BC2;
+  color: #9c4713;
   margin: 10px;
   padding: 10px;
   display: -webkit-box;
@@ -30,7 +30,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 4;
+  font-size: 4em;
 }
 
 img {
@@ -46,14 +46,14 @@ img {
 
 p {
   color: #1D8BC2;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family: sans-serif;
   margin: 10px;
   padding: 10px;
 }
 
 .box {
-  background-color: #6CB8B6;
+  background-color: #a6edcb;
   padding: 10%;
   margin: 5%;
   font-size: 2.5em;
@@ -68,7 +68,7 @@ p {
   height: 80px;
   width: 90%;
   margin: 0 auto;
-  font-size: 25px;
+  font-size: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,7 +83,7 @@ p {
 }
 
 header {
-  background-color: #167E80;
+  background-color: #1c7175;
   color: #1D8BC2;
   border-radius: 60px;
   -webkit-box-shadow: 4px 4px 4px #8BCCC5;
@@ -98,7 +98,7 @@ header {
 
 button {
   color: #1D8BC2;
-  font-size: 2em;
+  font-size: 1em;
   margin: 20px;
 }
 
@@ -111,6 +111,7 @@ a:hover {
 a {
   margin: 20px;
   font-size: 40px;
+  color: #1a1817;
 }
 
 .lnk {
@@ -120,7 +121,7 @@ a {
 footer {
   margin: 10px;
   padding: 10px;
-  color: #057A6F;
+  color: #9c4713;
 }
 
 .icon {
@@ -148,7 +149,7 @@ footer {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-color: #A1D498;
+  background-color: #a6edcb;
   height: 25%;
 }
 
@@ -162,13 +163,15 @@ footer {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-color: #A1D498;
+  background-color: #a6edcb;
   height: 25%;
 }
 
 section {
   height: 25%;
   width: 100%;
+  -webkit-text-decoration-color: #1D8BC2;
+          text-decoration-color: #1D8BC2;
 }
 
 .contact {
