@@ -21,13 +21,13 @@ $secondary-color: #1D8BC2;
 
 @mixin shadow {
  border-radius: 60px;
- box-shadow: 3px 3px 3px #8BCCC5;
+ box-shadow: 4px 4px 4px #8BCCC5;
 }
 
 h1 {
  @include fancy-text();
  color: $primary-color;
- font-size: 90px;
+ font-size: 6em;
  display: flex;
  justify-content: center;
  @include borders();
@@ -39,7 +39,7 @@ h2 {
  @include borders();
  display: flex;
  justify-content: center;
- font-size: 60px;
+ font-size: 4;
 }
 
 img {
@@ -62,7 +62,7 @@ p {
  background-color: #6CB8B6;
  padding: 10%;
  margin: 5%;
- font-size: 40px;
+ font-size: 2.5em;
  background-position: cover;
  @include shadow(); 
 }
@@ -91,7 +91,7 @@ header {
  
 button {
  color: $secondary-color;
- font-size: 30px;
+ font-size: 2em;
  margin: 20px;
 }
 

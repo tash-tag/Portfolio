@@ -7,7 +7,7 @@ h1 {
   font-family: fantasy;
   font-style: italic;
   color: #057A6F;
-  font-size: 90px;
+  font-size: 6em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,15 +30,15 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 60px;
+  font-size: 4;
 }
 
 img {
   display: block;
   margin: 5px auto;
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
-          box-shadow: 3px 3px 3px #8BCCC5;
+  -webkit-box-shadow: 4px 4px 4px #8BCCC5;
+          box-shadow: 4px 4px 4px #8BCCC5;
   width: 60%;
   height: auto;
   background-color: #83E1E6;
@@ -56,11 +56,11 @@ p {
   background-color: #6CB8B6;
   padding: 10%;
   margin: 5%;
-  font-size: 40px;
+  font-size: 2.5em;
   background-position: cover;
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
-          box-shadow: 3px 3px 3px #8BCCC5;
+  -webkit-box-shadow: 4px 4px 4px #8BCCC5;
+          box-shadow: 4px 4px 4px #8BCCC5;
 }
 
 .container {
@@ -86,8 +86,8 @@ header {
   background-color: #167E80;
   color: #1D8BC2;
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
-          box-shadow: 3px 3px 3px #8BCCC5;
+  -webkit-box-shadow: 4px 4px 4px #8BCCC5;
+          box-shadow: 4px 4px 4px #8BCCC5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,14 +98,14 @@ header {
 
 button {
   color: #1D8BC2;
-  font-size: 30px;
+  font-size: 2em;
   margin: 20px;
 }
 
 a:hover {
   border-radius: 60px;
-  -webkit-box-shadow: 3px 3px 3px #8BCCC5;
-          box-shadow: 3px 3px 3px #8BCCC5;
+  -webkit-box-shadow: 4px 4px 4px #8BCCC5;
+          box-shadow: 4px 4px 4px #8BCCC5;
 }
 
 a {
