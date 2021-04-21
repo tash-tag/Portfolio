@@ -3,7 +3,6 @@
  padding: 0;
 }
 
-
 $primary-color: #9c4713;
 $secondary-color: #0493AC;
 
@@ -102,7 +101,6 @@ a {
  margin: 20px;
  font-size: 2em;
  color: #1a1817;
- // display: flex;
 }
 
 // .lnk {
@@ -112,7 +110,6 @@ a {
 footer {
  @include borders();
  color: $primary-color;
- display: flex;
  flex: 0;
 }
 
@@ -120,7 +117,6 @@ footer {
  height: 30%;
  width: 30%;
 }
-
 
 .icon2 {
  height: 20%;
@@ -183,13 +179,13 @@ article {
 }
 
 
-@media only screen and (min-width: 601px) {
-  p {
-   font-size : 2em;
-  }
- } 
- @media only screen and (min-width: 769px) {
-  p {
-   font-size: 1em;
-  } 
- }
+// @media only screen and (min-width: 601px) {
+//   p {
+//    font-size : 2em;
+//   }
+//  } 
+//  @media only screen and (min-width: 769px) {
+//   p {
+//    font-size: 1em;
+//   } 
+//  }
