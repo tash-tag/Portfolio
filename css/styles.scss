@@ -5,7 +5,7 @@
 
 
 $primary-color: #9c4713;
-$secondary-color: #1D8BC2;
+$secondary-color: #0493AC;
 
 @mixin fancy-text {
   font-family: fantasy;
@@ -52,7 +52,7 @@ img {
 p {
  color: $secondary-color;
  font-size: 2.5em;
- font-family: sans-serif;
+ font-family: sans;
  @include borders()
 }
 
@@ -61,16 +61,17 @@ p {
  padding: 10%;
  margin: 5%;
  font-size: 2.5em;
+ font-family: sans;
+ color: $secondary-color;
  background-position: cover;
  @include shadow(); 
 }
 
 .container {
- padding: 15px;
- height: 80px;
+ // padding: 2%;
+ // height: 80%;
  width: 90%;
  margin: 0 auto;
- font-size: 2em;
  display: flex;
  flex-direction: row;
  justify-content: space-around;
@@ -78,14 +79,14 @@ p {
 }
 
 header {
- background-color: #1c7175;
- height: 75px;
- line-height: 75px;
+ background-color: #468F8B;
+ // height: 10%;
+ // line-height: %;
  color: $secondary-color;
  @include shadow(); 
  display: flex;
  align-items: center;
- }
+}
  
 button {
  color: $secondary-color;
@@ -99,7 +100,7 @@ a:hover {
 
 a {
  margin: 20px;
- font-size: 40px;
+ font-size: 2em;
  color: #1a1817;
  // display: flex;
 }
@@ -147,7 +148,7 @@ footer {
 section {
  height: 25%;
  width: 100%;
- font-family: ;
+ 
 
 }
 
