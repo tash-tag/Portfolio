@@ -2,10 +2,22 @@
  margin: 0;
  padding: 0;
 }
-
+body {
+  background-color: #fafcfc;
+}
+.pagewrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
 $primary-color: #9c4713;
 $secondary-color: #0493AC;
-
+a:hover {
+  background-color: rgb(31, 170, 180);
+}
+a {
+  text-decoration: none;
+}
 @mixin fancy-text {
   font-family: fantasy;
   font-style: italic; 
@@ -20,11 +32,15 @@ $secondary-color: #0493AC;
  border-radius: 60px;
  box-shadow: 4px 4px 4px #8BCCC5;
 }
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto
+ }
 
 h1 {
  @include fancy-text();
  color: $primary-color;
- font-size: 5em;
  display: flex;
  justify-content: center;
  @include borders();
@@ -36,45 +52,24 @@ h2 {
  @include borders();
  display: flex;
  justify-content: center;
- font-size: 4em;
-}
-
-img {
- display: block;
- margin: 5px auto;
- @include shadow();
- width: 60%;
- height: auto;
- background-color: #83E1E6;
+ 
 }
  
 p {
  color: $secondary-color;
- font-size: 2.5em;
+//  font-size: 2.5em;
  font-family: sans;
- @include borders()
+ margin: 20px 0 40px;
 }
 
-.box {
- background-color: #a6edcb;
- padding: 10%;
- margin: 5%;
- font-size: 2.5em;
- font-family: sans;
- color: $secondary-color;
- background-position: cover;
- @include shadow(); 
+a:hover {
+ @include shadow();
 }
 
-.container {
- // padding: 2%;
- // height: 80%;
- width: 90%;
- margin: 0 auto;
- display: flex;
- flex-direction: row;
- justify-content: space-around;
- align-content: center;
+a {
+//  margin: 20px;
+//  font-size: 2em;
+ color: #1a1817;
 }
 
 header {
@@ -86,26 +81,33 @@ header {
  display: flex;
  align-items: center;
 }
- 
-button {
+nav,
+.container {
+ width: 90%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-content: center;
+}
+nav a {
+  margin: 2%;
+  padding: 2%;
+  font-weight: bold ;
+  color: #fff;
+}
+
+.box {
+ background-color: #a6edcb;
+ padding: 10%;
+ font-family: sans;
  color: $secondary-color;
- font-size: 1em;
- margin: 20px;
+ background-position: cover;
+ @include shadow(); 
 }
 
-a:hover {
- @include shadow();
-}
+ 
 
-a {
- margin: 20px;
- font-size: 2em;
- color: #1a1817;
-}
-
-// .lnk {
-// height: 200px
-// }
 
 footer {
  @include borders();
@@ -126,26 +128,51 @@ footer {
  width: 160px;
  height: 160px;
 }
-
-.blog4 {
- display: flex;
- flex-direction: column;
- align-content: center;
- background-color: #a6edcb;
- height: 25%;
+.blogs {
+  display: flex;
+  align-items: row;
+  
 }
-
-.blog2 {
- display: flex;
- flex-direction: column;
- align-content: center;
- background-color: #a6edcb;
- height: 25%;
+.blogs section {
+  padding: 0 3%;
 }
-
-section {
- height: 25%;
- width: 100%;
+// tablet
+ @media only screen and (max-width: 1023px) {
+  // .blogs {
+    
+  // }
+ 
+ // mobile
+@media only screen and (max-width: 767px) {
+  .blogs {
+    display: block;
+  }
+  .blogs section {
+    padding: 0;
+  }
+  
+ } 
+.blog1,
+.blog2,
+.blog3,
+.blog4,
+.blog5 {
+  background-color: #a6edcb;
+  padding: 4%;
+  margin: 0 0 20px;
+}
+.blog1 img,
+.blog2 img,
+.blog3 img,
+.blog4 img,
+.blog5 img {
+ display: block;
+ margin: 5px auto;
+ height: auto;
+ background-color: #83E1E6;
+}
+.rounded {
+  @include shadow();
 }
 
 .contact {
@@ -155,11 +182,23 @@ section {
  align-items: center;
 }
 
- .input-field {
-  width: 150%;
-  height: 3em;
-  display: flex;
- }
+form {
+  width: 100%;
+  max-width: 500px;
+}
+input,
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+button {
+ color: $secondary-color;
+//  font-size: 1em;
+ margin: 20px 0;
+ padding: 8px;
+}
 
 article {
  width: 20;
@@ -167,25 +206,4 @@ article {
  display: flex;
  justify-content: center;
 }
-
-.pagewrap {
- display: flex;
- flex-direction: column;
-}
-
-.main {
- display: flex;
- flex-grow: 1;
-}
-
-
-// @media only screen and (min-width: 601px) {
-//   p {
-//    font-size : 2em;
-//   }
-//  } 
-//  @media only screen and (min-width: 769px) {
-//   p {
-//    font-size: 1em;
-//   } 
-//  }
+ }
