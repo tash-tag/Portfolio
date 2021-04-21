@@ -20,6 +20,8 @@
         background-color: #fafcfc;
       }
     </style>
+    <body>
+      <div class="pagewrap">
     <header>
       <nav class="container">
         <a href="/About-Me.html">About Me</a>
@@ -30,39 +32,41 @@
     </header>
   </head>
   <meta name="viewport" content="width=device_width, initial_scale=1.0" />
-  <body>
     <br />
     <h1>Tash Gibson</h1>
     <main class="box">
-      <section class="contact">
-        <form action="">
-          <label for="fname">Full Name</label><br />
-          <input
-            class="input-field"
-            id="fname"
-            name="Name"
-            type="text"
-            required
-          /><br />
-          <label for="email">Email</label><br />
-          <input
-            class="input-field"
-            id="email"
-            name="Name"
-            type="text"
-            required
-          /><br />
-          <label class="" for="message">Message</label><br />
-          <input
-            class="input-field"
-            id="message"
-            name="Name"
-            type="text"
-          /><br />
-          <button type="submit">Submit</button>
-        </form>
-      </section>
+      <div class="main">
+        <section class="contact">
+          <form action="https://formspree.io/f/xeqvorbp" method="POST">
+            <label for="fname">Full Name</label><br />
+            <input
+              class="input-field"
+              id="fname"
+              name="Name"
+              type="text"
+              required
+            /><br />
+            <label for="email">Email</label><br />
+            <input
+              class="input-field"
+              id="email"
+              name="Name"
+              type="text"
+              required
+            /><br />
+            <label for="message">Message</label><br />
+            <input
+              class="input-field"
+              id="message"
+              name="Name"
+              type="text"
+            /><br />
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </div>
     </main>
     <footer><p>© 2020 Tash Gibson</p></footer>
+  </div>
   </body>
 </html>

@@ -113,14 +113,16 @@ a {
   color: #1a1817;
 }
 
-.lnk {
-  height: 200px;
-}
-
 footer {
   margin: 10px;
   padding: 10px;
   color: #9c4713;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
 }
 
 .icon {
@@ -204,5 +206,36 @@ article {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.pagewrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+@media only screen and (min-width: 601px) {
+  p {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  p {
+    font-size: 1em;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
