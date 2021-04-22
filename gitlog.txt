@@ -1,3 +1,21 @@
+commit ed26f4f1258e8bfaca764849b88a078181899fba
+Author: tashtag-code <tashgibson16@gmail.com>
+Date:   Thu Apr 22 19:28:51 2021 +1000
+
+    adding changes to readme
+
+commit b17fd3037c430f520ba62e0fa6855e591467bc6a
+Author: tashtag-code <tashgibson16@gmail.com>
+Date:   Thu Apr 22 16:33:14 2021 +1000
+
+    commit changes
+
+commit 609f4109df3a34781e43452ca89f29647d36f5ef
+Author: tashtag-code <tashgibson16@gmail.com>
+Date:   Thu Apr 22 14:02:37 2021 +1000
+
+    commit
+
 commit b2c932602de590810bed3bf29318dfc6e34a8673
 Author: tashtag-code <tashgibson16@gmail.com>
 Date:   Thu Apr 22 11:23:00 2021 +1000
