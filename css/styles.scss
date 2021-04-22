@@ -12,6 +12,7 @@ body {
 }
 $primary-color: #9c4713;
 $secondary-color: #0493AC;
+
 a:hover {
   background-color: rgb(31, 170, 180);
 }
@@ -32,6 +33,7 @@ a {
  border-radius: 60px;
  box-shadow: 4px 4px 4px #8BCCC5;
 }
+
 img {
   display: block;
   width: 100%;
@@ -51,8 +53,6 @@ h2 {
  color: $primary-color;
  @include borders();
  display: flex;
-//  justify-content: center;
- 
 }
  
 p {
@@ -76,6 +76,7 @@ header {
  display: flex;
  align-items: center;
 }
+
 nav,
 .container {
  width: 90%;
@@ -96,13 +97,9 @@ nav a {
  background-color: #a6edcb;
  padding: 10%;
  font-family: sans;
-//  color: $secondary-color;
  background-position: cover;
  @include shadow(); 
 }
-
- 
-
 
 footer {
  @include borders();
@@ -119,54 +116,29 @@ footer {
  height: 20%;
  width: 20%;
 }
-.about-icon img{
+.about-icon img {
  width: 160px;
  height: 160px;
 }
 
-// .blogs {
-//   display: flex;
-//   align-items: row;
-  
-// }
 .blogs section {
   padding: 0 3%;
 }
 // tablet
- @media only screen and (max-width: 1023px) {
+//  @media only screen and (max-width: 1023px) {
   // .blogs {
     
   // }
  
  // mobile
-// @media only screen and (max-width: 767px) {
-  // .blogs {
-  //   display: block;
+@media only screen and (max-width: 767px) {
+  .blogs {
+    display: block;
   }
   .blogs section {
     padding: 0;
   }
-  
-//  } 
-// .blog1,
-// .blog2,
-// .blog3,
-// .blog4,
-// .blog5 {
-//   background-color: #a6edcb;
-//   padding: 4%;
-//   margin: 0 0 20px;
-// }
-// .blog1 img,
-// .blog2 img,
-// .blog3 img,
-// .blog4 img,
-// .blog5 img {
-//  display: block;
-//  margin: 5px auto;
-//  height: auto;
-//  background-color: #83E1E6;
-// }
+}
 .rounded {
   @include shadow();
 }
@@ -191,7 +163,6 @@ textarea {
 }
 button {
  color: $secondary-color;
-//  font-size: 1em;
  margin: 20px 0;
  padding: 8px;
 }

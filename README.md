@@ -18,9 +18,18 @@ The website's features are
 * form - to enter contact details and message
 * article - contains icons and links
 ## **Sitemap**
+This is a sitemap created at the start of the project, the Home page is the index page and all pages connect to on another via a nav bar.
+![Getting Started](./docs/MyPortfolio.png)
 
 ## **Screenshots of code**
-
+![Getting Started](./docs/aboutme..png)
+![Getting Started](./docs/aboutme.png)
+![Getting Started](./docs/blog1.png)
+![Getting Started](./docs/blog11.png)
+![Getting Started](./docs/contact,.png)
+![Getting Started](./docs/contact,,.png)
+![Getting Started](./docs/index.png)
+![Getting Started](./docs/index....png)
 ## **Target audience**
 The target audience for this project is an employer looking to engage a dev or IT professional.
 ## **Tech stack**
@@ -36,3 +45,9 @@ The target audience for this project is an employer looking to engage a dev or I
 * Sitemap - app.diagrams.net
 * Wireframes - Balsamiq
 ## **Trello Screenshots**
+![Getting Started](./docs/screen-shot9:4.png)
+![Getting Started](./docs/screen-shot10:4.png)
+![Getting Started](./docs/screen-shot13:4.png)
+![Getting Started](./docs/screen-shot17:4.png)
+![Getting Started](./docs/screenshot10:4.png)
+![Getting Started](./docs/screenshot22:4.png)
